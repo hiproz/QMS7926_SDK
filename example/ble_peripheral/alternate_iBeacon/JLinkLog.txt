@@ -1,0 +1,65 @@
+T3294 503:694.867   SEGGER J-Link V6.62a Log File
+T3294 503:694.943   DLL Compiled: Jan 31 2020 12:58:08
+T3294 503:694.975   Logging started @ 2020-02-28 10:50
+T3294 503:695.009 JLINK_SetWarnOutHandler(...)
+T3294 503:695.039 - 0.045ms
+T3294 503:695.072 JLINK_OpenEx(...)
+T3294 503:699.601   Firmware: J-Link V9 compiled Dec 13 2019 11:14:50
+T3294 503:699.812   Decompressing FW timestamp took 140 us
+T3294 503:709.616   Hardware: V9.70
+T3294 503:709.689   S/N: 59700618
+T3294 503:709.734   OEM: SEGGER
+T3294 503:709.779   Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+T3294 503:713.644   TELNET listener socket opened on port 19021
+T3294 503:726.054   Device "ARM7" selected.
+T3294 503:731.242   WEBSRV Starting webserver
+T3294 503:731.360   WEBSRV Failed to put socket into listener state (port 19080)
+T3294 503:731.509   WEBSRV Webserver running on local port 19081
+T3294 503:731.558 - 36.502ms returns "O.K."
+T3294 503:731.647 JLINK_GetEmuCaps()
+T3294 503:731.680 - 0.054ms returns 0xB9FF7BBF
+T3294 503:731.732 JLINK_TIF_GetAvailable(...)
+T3294 503:732.465 - 0.767ms
+T3294 503:732.558 JLINK_SetErrorOutHandler(...)
+T3294 503:732.594 - 0.051ms
+T3294 503:732.636 JLINK_ExecCommand("ProjectFile = "D:\home\QST_0153\Documents\Projects\QMS7926\QST\QMS7926_SDK_0.0.1(20190729)\example\ble_peripheral\alternate_iBeacon\JLinkSettings.ini"", ...). 
+T3294 503:737.410   Device "ARM7" selected.
+T3294 503:742.341 - 9.737ms returns 0x00
+T3294 503:742.404 JLINK_ExecCommand("Device = ARMCM0", ...). 
+T3294 503:742.454   Device "CORTEX-M0" selected.
+T3294 503:747.041 - 4.630ms returns 0x00
+T3294 503:747.097 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T3294 503:747.135 - 0.019ms returns 0x01
+T3294 503:747.174 JLINK_GetHardwareVersion()
+T3294 503:747.205 - 0.046ms returns 0x17AE8
+T3294 503:747.240 JLINK_GetDLLVersion()  returns 66201
+T3294 503:748.262 JLINK_GetFirmwareString(...)
+T3294 503:748.300 - 0.053ms
+T3294 503:748.339 JLINK_GetDLLVersion()  returns 66201
+T3294 503:748.373 JLINK_GetCompileDateTime()
+T3294 503:748.403 - 0.046ms
+T3294 503:748.438 JLINK_GetFirmwareString(...)
+T3294 503:748.468 - 0.045ms
+T3294 503:748.501 JLINK_GetHardwareVersion()
+T3294 503:748.531 - 0.045ms returns 0x17AE8
+T3294 503:748.573 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T3294 503:750.539   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T3294 503:750.631   Looking for J-Link GUI Server exe at: C:\Program Files (x86)\SEGGER\JLink\JLinkGUIServer.exe
+T3294 503:750.690   Forking J-Link GUI Server: C:\Program Files (x86)\SEGGER\JLink\JLinkGUIServer.exe
+T3294 503:754.316   J-Link GUI Server info: "J-Link GUI server V6.62a "
+T3294 505:131.131 - 1382.625ms returns 0x00
+T3294 505:131.315 JLINK_SetSpeed(5000)
+T3294 505:132.987 - 1.724ms
+T3294 505:134.246 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T3294 505:134.330 - 0.117ms returns JLINKARM_RESET_TYPE_NORMAL
+T3294 505:134.403 JLINK_Reset()
+T3294 505:974.319 JLINK_GetIdData(pIdData)
+T3294 506:271.456 - 297.258ms
+T3294 506:271.837 JLINK_GetIdData(pIdData)
+T3294 506:567.431 - 295.665ms
+T3294 506:575.471 JLINK_GetFirmwareString(...)
+T3294 506:575.575 - 0.138ms
+T3294 544:086.394 JLINK_Close()
+T3294 544:336.205 - 249.873ms
+T3294 544:336.302   
+T3294 544:336.367   Closed
